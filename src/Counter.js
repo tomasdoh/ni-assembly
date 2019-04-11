@@ -21,10 +21,6 @@ class Counter extends Component {
     clearInterval(this.timer);
   }
 
-  difference() {
-    this.state.now - this.state.countFrom
-  }
-
   tick() {
     this.setState({
       time: convertTime(Date.now() - this.startDate)
