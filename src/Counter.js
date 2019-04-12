@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import convertTime from './convertTime'
 
 class Counter extends Component {
   constructor(props) {
     super(props)
-    this.startDate = new Date('jan,9,2017,06:00:00')
+    this.startDate = new Date('jan,16,2017,06:00:00')
     this.state = { time: 0 }
     this.tick = this.tick.bind(this)
   }
